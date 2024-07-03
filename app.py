@@ -12,7 +12,7 @@ def index_post():
     original_text = request.form['text']
     target_language = request.form['language']
 
-    translated_text = "你好世界"
+    translated_text = "你好世界-Develop"
     return render_template(
         'results.html',
         translated_text=translated_text,
